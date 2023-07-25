@@ -18,8 +18,8 @@ function UserMenu(props) {
     <div className={classes.userMenu}>
       { isDesktop && (
         <div>
-          <Button href={link.education.login}>{t('login')}</Button>
-          <Button variant="contained" color="primary" href={link.education.register}>{t('register')}</Button>
+          <Button href="https://app.baitestiq.info/login/">{t('login')}</Button>
+          <Button variant="contained" color="primary" href="https://app.baitestiq.info/register/">{t('register')}</Button>
           <span className={classes.vDivider} />
         </div>
       )}
